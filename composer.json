@@ -1,0 +1,24 @@
+{
+    "name": "ipenge/yii2-helpers",
+    "description": "yii2 helper function",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ipenge",
+            "email": "weixupeng999@163.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ipenge\\helpers\\": ""
+        },
+        "files": [
+            "src/Helpers.php"
+        ]
+    }
+}
