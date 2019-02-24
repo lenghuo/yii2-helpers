@@ -10,14 +10,17 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist ipenge/yii2-helpers "*"
+php composer.phar require --prefer-dist ipenge/yii2-helpers:dev-master
 ```
 
-or add
+or add composer.json
 
 ```
-"ipenge/yii2-helpers": "*"
+"require": {
+    "ipenge/yii2-helpers": "dev-master"
+}
 ```
+then run `composer update` install extension
 
 to the require section of your `composer.json` file.
 
